@@ -1,6 +1,6 @@
 import React from 'react'
 import {useDispatch} from 'react-redux';
-import{incAction, decAction} from './store/Action'
+import{incAction, decAction} from './store/Actions'
  function CounterInput() {
      const dispatch = useDispatch()
     return (

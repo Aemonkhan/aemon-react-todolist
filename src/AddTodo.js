@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
-import {addTodoAction} from './Action'
+import {addTodoAction,deleteTodoAction} from './store/Actions'
  import {useDispatch} from 'react-redux'
-import Viewtodo from '../Viewtodo'
+import Viewtodo from './Viewtodo'
 
 function AddTodo() {
      const dispatch = useDispatch()
